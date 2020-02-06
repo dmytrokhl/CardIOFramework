@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.license               = { :type => 'MIT', :file => 'LICENSE.md' }
     spec.authors               = { 'VGS' => 'support@verygoodsecurity.com', 'CardIO' => 'support@paypal.com' }
     spec.homepage              = 'https://github.com/verygoodsecurity/vgs-collect-ios'
-    spec.source           = { :git => 'https://github.com/dmytrokhl/CardIO-VGS.git', :tag => "#{spec.version}" }
+    spec.source           = { :git => 'https://github.com/dmytrokhl/CardIOFramework.git', :tag => "#{spec.version}" }
     spec.source_files          = 'CardIOFramework/CardIOFramework.h'
     spec.frameworks       = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
     spec.libraries        = 'c++'
