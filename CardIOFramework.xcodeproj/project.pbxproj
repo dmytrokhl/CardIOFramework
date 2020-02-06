@@ -10,17 +10,17 @@
 		3228FB3923EC6A6E00737923 /* CardIOFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3228FB2F23EC6A6E00737923 /* CardIOFramework.framework */; };
 		3228FB3E23EC6A6E00737923 /* CardIOFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3228FB3D23EC6A6E00737923 /* CardIOFrameworkTests.m */; };
 		3228FB4023EC6A6E00737923 /* CardIOFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB3223EC6A6E00737923 /* CardIOFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3228FB5623EC6AAF00737923 /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB4A23EC6AAF00737923 /* CardIODetectionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3228FB5723EC6AAF00737923 /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB4B23EC6AAF00737923 /* CardIOUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3228FB5623EC6AAF00737923 /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB4A23EC6AAF00737923 /* CardIODetectionMode.h */; };
+		3228FB5723EC6AAF00737923 /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB4B23EC6AAF00737923 /* CardIOUtilities.h */; };
 		3228FB5823EC6AAF00737923 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3228FB4C23EC6AAF00737923 /* libopencv_core.a */; };
 		3228FB5923EC6AAF00737923 /* CardIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3228FB4D23EC6AAF00737923 /* CardIO.m */; };
 		3228FB5A23EC6AAF00737923 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3228FB4E23EC6AAF00737923 /* libCardIO.a */; };
-		3228FB5B23EC6AAF00737923 /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB4F23EC6AAF00737923 /* CardIOView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3228FB5C23EC6AAF00737923 /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5023EC6AAF00737923 /* CardIOPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3228FB5D23EC6AAF00737923 /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5123EC6AAF00737923 /* CardIOViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3228FB5E23EC6AAF00737923 /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5223EC6AAF00737923 /* CardIOCreditCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3228FB5B23EC6AAF00737923 /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB4F23EC6AAF00737923 /* CardIOView.h */; };
+		3228FB5C23EC6AAF00737923 /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5023EC6AAF00737923 /* CardIOPaymentViewController.h */; };
+		3228FB5D23EC6AAF00737923 /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5123EC6AAF00737923 /* CardIOViewDelegate.h */; };
+		3228FB5E23EC6AAF00737923 /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5223EC6AAF00737923 /* CardIOCreditCardInfo.h */; };
 		3228FB5F23EC6AAF00737923 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3228FB5323EC6AAF00737923 /* libopencv_imgproc.a */; };
-		3228FB6023EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5423EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3228FB6023EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5423EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h */; };
 		3228FB6123EC6AAF00737923 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5523EC6AAF00737923 /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -150,15 +150,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3228FB5C23EC6AAF00737923 /* CardIOPaymentViewController.h in Headers */,
 				3228FB4023EC6A6E00737923 /* CardIOFramework.h in Headers */,
-				3228FB5E23EC6AAF00737923 /* CardIOCreditCardInfo.h in Headers */,
-				3228FB5D23EC6AAF00737923 /* CardIOViewDelegate.h in Headers */,
 				3228FB6123EC6AAF00737923 /* CardIO.h in Headers */,
-				3228FB5623EC6AAF00737923 /* CardIODetectionMode.h in Headers */,
-				3228FB6023EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h in Headers */,
-				3228FB5723EC6AAF00737923 /* CardIOUtilities.h in Headers */,
 				3228FB5B23EC6AAF00737923 /* CardIOView.h in Headers */,
+				3228FB5623EC6AAF00737923 /* CardIODetectionMode.h in Headers */,
+				3228FB5C23EC6AAF00737923 /* CardIOPaymentViewController.h in Headers */,
+				3228FB6023EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h in Headers */,
+				3228FB5D23EC6AAF00737923 /* CardIOViewDelegate.h in Headers */,
+				3228FB5723EC6AAF00737923 /* CardIOUtilities.h in Headers */,
+				3228FB5E23EC6AAF00737923 /* CardIOCreditCardInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
