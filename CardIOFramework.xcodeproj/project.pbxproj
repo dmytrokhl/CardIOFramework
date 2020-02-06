@@ -22,7 +22,6 @@
 		3228FB5F23EC6AAF00737923 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3228FB5323EC6AAF00737923 /* libopencv_imgproc.a */; };
 		3228FB6023EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5423EC6AAF00737923 /* CardIOPaymentViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3228FB6123EC6AAF00737923 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3228FB5523EC6AAF00737923 /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32AE421E23EC89D000D48A17 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AE421D23EC89D000D48A17 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 				3228FB5823EC6AAF00737923 /* libopencv_core.a in Frameworks */,
 				3228FB5A23EC6AAF00737923 /* libCardIO.a in Frameworks */,
 				3228FB5F23EC6AAF00737923 /* libopencv_imgproc.a in Frameworks */,
-				32AE421E23EC89D000D48A17 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

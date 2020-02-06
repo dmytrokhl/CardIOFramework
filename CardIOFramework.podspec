@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.authors               = { 'VGS' => 'support@verygoodsecurity.com', 'CardIO' => 'support@paypal.com' }
     spec.homepage              = 'https://github.com/verygoodsecurity/vgs-collect-ios'
     spec.source           = { :git => 'https://github.com/dmytrokhl/CardIOFramework.git', :tag => "#{spec.version}" }
-    spec.source_files          = 'CardIOFramework/CardIOFramework.h'
+    spec.source_files          = 'CardIOFramework/*.{h, m}'
     spec.frameworks       = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
     spec.libraries        = 'c++'
     spec.vendored_libraries = 'CardIOFramework/CardIO/libCardIO.a', 'CardIOFramework/CardIO/libopencv_core.a', 'CardIOFramework/CardIO/libopencv_imgproc.a'
