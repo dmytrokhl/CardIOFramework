@@ -15,3 +15,5 @@ FOUNDATION_EXPORT double CardIOFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char CardIOFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CardIOFramework/PublicHeader.h>
+
+#import <CardIO/CardIO.h>
